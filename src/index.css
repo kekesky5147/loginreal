@@ -28,3 +28,58 @@
     margin-top: 26px;
     flex: 1;
 }
+
+.inputtitle{ 
+    font-size: 12px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.inputwrap {
+    display: flex;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 8px;
+    background-color: white;
+}
+
+.inputwrap:focus-within {
+    border: 1px solid #0000009a;
+}
+
+.input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.input::placeholder {
+    color: #dadada;
+}
+
+.errormessagewrap {
+    margin-top: 8px;
+    color: #cf0000;
+    font-size: 12px;
+}
+
+.bottombutton {
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-weight: 700;
+    border-radius: 60px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #262626;
+}
+
+/* 이메일과 비번을 입력했을 상황에 활성화 여부  */
+.bottombutton:disabled {
+    background-color: #dadada;
+    color: #262626;
+}
